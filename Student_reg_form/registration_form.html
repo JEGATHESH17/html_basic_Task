@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <form action="#" method="post">
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Educational Information -->
+        <fieldset>
+            <legend>Educational Information</legend>
+
+            <label for="college">College Name:</label>
+            <input type="text" id="college" name="college">
+            <br><br>
+
+            <label for="degree">Degree:</label>
+            <select id="degree" name="degree">
+                <option value="">Select Degree</option>
+                <option value="bsc">B.Sc</option>
+                <option value="bca">BCA</option>
+                <option value="bcom">B.Com</option>
+                <option value="be">B.E</option>
+                <option value="btech">B.Tech</option>
+            </select>
+            <br><br>
+
+            <label for="year">Year of Passing:</label>
+            <input type="number" id="year" name="year">
+
+        </fieldset>
+
+        <br>
+
+        <!-- Skills Information -->
+        <fieldset>
+            <legend>Technical Skills</legend>
+
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Address Information -->
+        <fieldset>
+            <legend>Address Details</legend>
+
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <br><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+
+    </form>
+
+</body>
+</html>
